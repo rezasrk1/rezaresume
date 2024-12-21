@@ -1,15 +1,96 @@
-Welcome to mine World!
+Md Saiful Islam  
+Dhaka Cantonment, Dhaka, Bangladesh  
+Email: md.saiful.islam7@g.bracu.ac.bd  
+Phone: +8801951225433  
+GitHub: github.com/rezasrk1  
 
-BRAC UNIVERSITY
-Bachelor of Computer Science & Engineering (2021 - 2024)
-CGPA: 3.43 
+=================================================================
+Objective  
+=================================================================  
+Motivated and passionate software engineer with strong skills in Laravel, Core PHP, MySQL, and front-end technologies. Seeking opportunities to apply my expertise in web development, UX/UI design, and software engineering to contribute meaningfully to organisational goals.
 
-HSC 2017 -2019 
-GOVT. ASHEK MAHMUD COLLEGE, JAMALPUR 
-Science 
-GPA: 4.33 / 5.0
+=================================================================
+Education  
+=================================================================  
+Bachelor of Science in Computer Science & Engineering  
+BRAC University, Dhaka, Bangladesh (January 2021 – December 2024)  
+- CGPA: 3.43/4.00  
 
-SSC 2011 - 2017 
-JAMALPUR ZILLA SCHOOL, JAMALPUR 
-Science 
-GPA: 5.00 / 5.00
+Higher Secondary Certificate (HSC) - Science  
+Govt. Ashek Mahmud College, Jamalpur, Bangladesh (2017 – 2019)  
+- GPA: 4.33/5.00  
+
+Secondary School Certificate (SSC) - Science  
+Jamalpur Zilla School, Jamalpur, Bangladesh (2011 – 2017)  
+- GPA: 5.00/5.00  
+
+=================================================================
+Skills  
+=================================================================  
+Programming & Development:  
+- Backend: Laravel, PHP, Core PHP, MySQL, Python (Django)  
+- Frontend: HTML, CSS, JavaScript, React.js, Next.js  
+- Database: MongoDB, Microsoft SQL Server  
+- Other Tools/Frameworks: D3.js, React Flow  
+
+Additional Skills:  
+- UI/UX Design, Assembly Language  
+- Digital Marketing, Social Media Marketing  
+- Time Management, Leadership, Critical Thinking  
+
+=================================================================
+Professional Experience  
+=================================================================  
+Associate Software Engineer  
+Zenov BPO, Dhaka, Bangladesh (September 2024 – Present)  
+- Developed and maintained software applications for logistics solutions.  
+- Collaborated with cross-functional teams to deliver reliable and efficient systems.  
+- Troubleshot and resolved software issues in freight forwarding and logistics.  
+
+Software Engineer  
+Lily River Children's Foundation (January 2021 – August 2023)  
+- Managed social media and digital marketing efforts.  
+- Streamlined workflows for online marketing and outreach strategies.  
+
+Bid Writer  
+PAM Group Ltd, Remote (Until September 2024)  
+- Prepared bids and proposals in sectors like Occupational Health and Physiotherapy.  
+
+=================================================================
+Projects  
+=================================================================  
+Online Tailoring Shop (Laravel)  
+- Designed and developed a web platform to streamline tailoring services.  
+- Demonstrated expertise in Laravel and front-end technologies.  
+- Project available on GitHub: github.com/rezasrk1  
+
+Drag-and-Drop Workflow Tool  
+- Developed with React.js/Next.js, D3.js/React Flow, Django, and MongoDB.  
+- Implemented session-based authentication for secure user interactions.  
+
+Full-Stack Interview Project (Django)  
+- Created a functional project within a day, demonstrating rapid development skills and passion for coding.  
+
+=================================================================
+Achievements  
+=================================================================  
+- Winner, Smart Traffic Management System, National Science Fair, 2016.  
+- Successfully participated in Kaggle Competitions.  
+
+=================================================================
+Certifications  
+=================================================================  
+- Certified courses on Digital Marketing and Social Media Management.  
+- Extensive UX Research experience.  
+
+=================================================================
+Languages  
+=================================================================  
+- Bengali: Native  
+- English: Proficient  
+
+=================================================================
+Interests  
+=================================================================  
+- Hydrogen as a renewable energy source and its applications.  
+- Generative AI and Responsive AI research.  
