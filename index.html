@@ -103,7 +103,7 @@
 			<div class="hero-video-wrapper">
 				
 				<video autoplay muted loop playsinline>
-					<source src="assets/images/about/Online_Tailoring_Shop1.mp4" type="video/mp4">
+					<source src="assets/images/about/Online_Tailoring_Shop.mp4" type="video/mp4">
 				</video>
 			</div>
 			
@@ -132,10 +132,13 @@
 				</div>
 			</div>
 
-			
+
+
 			<div class="section-heading text-center">
 				<h2>about me</h2>
 			</div>
+
+
 			<div class="container">
 				<div class="about-content">
 					<div class="row">
@@ -174,7 +177,7 @@ contributing to innovative solutions.
 						</div>
 						<div class="col-sm-offset-1 col-sm-5">
 							<div class="single-about-img">
-								<img src="assets/images/about/photo_2024-11-02_02-42-58 (2).jpg" alt="profile_image">
+								<img src="assets/images/about/photo_2024-11-02_02-42-57.jpg" alt="profile_image">
 								<div class="about-list-icon">
 									<ul>
 										<li>
@@ -849,7 +852,7 @@ contributing to innovative solutions.
 						<div class="col-md-offset-1 col-md-5 col-sm-6">
 							<div class="single-contact-box">
 								<div class="contact-form">
-									<form>
+									<form id="contactForm" action="/submit-message" method="POST">
 										<div class="row">
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
@@ -879,7 +882,11 @@ contributing to innovative solutions.
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="single-contact-btn">
-													<a class="contact-btn" href="#" role="button">submit</a>
+													<button type="submit" class="contact-btn">Submit</button>
+													
+													
+													<!-- <a class="contact-btn" href="#" role="button">submit</a> -->
+
 												</div><!--/.single-single-contact-btn-->
 											</div><!--/.col-->
 										</div><!--/.row-->
@@ -982,6 +989,19 @@ contributing to innovative solutions.
         
         <!--Custom JS-->
         <script src="assets/js/custom.js"></script>
+
+		<!-- here ustadi korsi -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#contactForm').submit(function(event) {
+					event.preventDefault(); // Prevent default form submission
+			
+					// Collect form data and send using AJAX
+					// Your AJAX handling code here (as previously discussed)
+				});
+			});
+			</script>
         
     </body>
 	
