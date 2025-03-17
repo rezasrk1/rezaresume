@@ -133,7 +133,36 @@
 			</div>
 
 
+			<body>
+		<div class="container">
+			<form method="post" action="https://script.google.com/macros/s/AKfycbzO25nlEPn9K-HyDiqnYj49gP0hY3WlD7EQyi6NG2lIrcMIjJkwRQZ1_CXNIlIoZILf/exec" name="contact-form">
+			   <h4>Text Me, and Live Talk With Me</h4>
+			   <input type="text" name="Name" placeholder="Name">
+			   
+			   <input type="email" name="Email" placeholder="Email">
+			   <input type="text" name="Subject" placeholder="subject">
+			   <input type="text" name="Message" placeholder="Messages">
+			   <input type="submit" value="Submit" id="submit">
+			</form>
+		</body>
+			<script>
+				const scriptURL = 'https://script.google.com/macros/s/AKfycbzO25nlEPn9K-HyDiqnYj49gP0hY3WlD7EQyi6NG2lIrcMIjJkwRQZ1_CXNIlIoZILf/exec'
+		
+				const form = document.forms['contact-form']
+		
+				form.addEventListener('submit', e => {
+				
+				e.preventDefault()
+				
+				fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => alert("Thank you! Form is submitted" ))
+				.then(() => { window.location.reload(); })
+				.catch(error => console.error('Error!', error.message))
+				})
+			</script>
+		</div>
 
+			
 			<div class="section-heading text-center">
 				<h2>about me</h2>
 			</div>
