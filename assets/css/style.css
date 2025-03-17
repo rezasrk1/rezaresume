@@ -193,17 +193,18 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 /* Video container */
 .hero-video-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    overflow: hidden;
     width: 100%;
-    height: 100%;
-    z-index: 1;
+    height: 100vh;
+    padding-top: 46.25%; /* 16:9 aspect ratio - adjust based on your video's ratio */
 }
 
 .hero-video-wrapper video {
-    object-fit: cover;
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
     height: 100%;
 }
 
