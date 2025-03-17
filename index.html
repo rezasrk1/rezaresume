@@ -870,96 +870,132 @@ contributing to innovative solutions.
 		</section><!--/.clients-->
 		<!--clients end -->
 
-		<!--contact start -->
+		
+		<!-- emni dekhi -->
+		<!-- contact start -->
 		<section id="contact" class="contact">
-			<div class="section-heading text-center">
-				<h2>contact me</h2>
-			</div>
-			<div class="container">
-				<div class="contact-content">
-					<div class="row">
-						<div class="col-md-offset-1 col-md-5 col-sm-6">
-							<div class="single-contact-box">
-								<body>
-								<div class="container" style="max-width: 600px; margin: 50px auto; padding: 30px; background: #f8f9fa; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1);">
-									<form method="post" action="https://script.google.com/macros/s/AKfycbzO25nlEPn9K-HyDiqnYj49gP0hY3WlD7EQyi6NG2lIrcMIjJkwRQZ1_CXNIlIoZILf/exec" name="contact-form" style="font-family: 'Segoe UI', sans-serif;">
-										<h4 style="color: #2d3748; text-align: center; margin-bottom: 30px; font-size: 24px; font-weight: 600;">Contact Me</h4>
-										
-										<input type="text" name="Name" placeholder="Name" 
-											style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 16px;">
-										
-										<input type="email" name="Email" placeholder="Email" 
-											style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 16px;">
-										
-										<input type="text" name="Subject" placeholder="Subject" 
-											style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 16px;">
-										
-										<input type="text" name="Message" placeholder="Message" 
-											style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 16px; height: 100px;">
-										
-										<input type="submit" value="Submit" id="submit" 
-											style="width: 100%; padding: 14px; background: #4299e1; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; transition: background 0.3s ease;">
-									</form>
-							
-								</body>
-							
-									<script>
-										const scriptURL = 'https://script.google.com/macros/s/AKfycbzO25nlEPn9K-HyDiqnYj49gP0hY3WlD7EQyi6NG2lIrcMIjJkwRQZ1_CXNIlIoZILf/exec'
-							
-										const form = document.forms['contact-form']
-							
-										form.addEventListener('submit', e => {
-										
-										e.preventDefault()
-										
-										fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-										.then(response => alert("Thank you! Form is submitted" ))
-										.then(() => { window.location.reload(); })
-										.catch(error => console.error('Error!', error.message))
-										})
-									</script>
-								</div>
-							</div><!--/.single-contact-box-->
-						</div><!--/.col-->
-						<div class="col-md-offset-1 col-md-5 col-sm-6">
-							<div class="single-contact-box">
-								<div class="contact-adress">
-									<div class="contact-add-head">
-										<h3>Md Saiful Islam</h3>
-										<p>uI/uX designer</p>
-									</div>
-									<div class="contact-add-info">
-										<div class="single-contact-add-info">
-											<h3>phone</h3>
-											<p>+8801951225433</p>
-										</div>
-										<div class="single-contact-add-info">
-											<h3>email</h3>
-											<p>saifulislamreza48@gmail.com</p>
-										</div>
-										<div class="single-contact-add-info">
-											<h3>website</h3>
-											<p>https://github.com/rezasrk1</p>
-										</div>
-									</div>
-								</div><!--/.contact-adress-->
-								<div class="hm-foot-icon">
-									<ul>
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li><!--/li-->
-										<li><a href="#"><i class="fa fa-dribbble"></i></a></li><!--/li-->
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li><!--/li-->
-										<li><a href="#"><i class="fa fa-linkedin"></i></a></li><!--/li-->
-										<li><a href="#"><i class="fa fa-instagram"></i></a></li><!--/li-->
-									</ul><!--/ul-->
-								</div><!--/.hm-foot-icon-->
-							</div><!--/.single-contact-box-->
-						</div><!--/.col-->
-					</div><!--/.row-->
-				</div><!--/.contact-content-->
-			</div><!--/.container-->
-
-		</section><!--/.contact-->
-		<!--contact end -->
+		    <div class="section-heading text-center">
+		        <h2>contact me</h2>
+		    </div>
+		    <div class="container">
+		        <div class="contact-content">
+		            <div class="row" style="display: flex; flex-wrap: wrap; margin: 0 -15px; justify-content: center;">
+		                <!-- Left Column (Form) -->
+		                <div class="col-md-5 col-sm-6" style="padding: 0 30px; margin-bottom: 30px;">
+		                    <div class="single-contact-box">
+		                        <div class="contact-form" style="background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); height: 100%;">
+		                            <form method="post" action="https://script.google.com/macros/s/AKfycbzO25nlEPn9K-HyDiqnYj49gP0hY3WlD7EQyi6NG2lIrcMIjJkwRQZ1_CXNIlIoZILf/exec" name="contact-form">
+		                                <h4 style="color: #2d3748; margin: 0 0 25px 0; font-size: 22px; font-weight: 600; text-align: center;">Get in Touch</h4>
+		                                
+		                                <div style="margin-bottom: 20px;">
+		                                    <input type="text" name="Name" placeholder="Your Name" 
+		                                           style="width: 100%; padding: 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 16px; margin-bottom: 15px;">
+		                                </div>
+		                                
+		                                <div style="margin-bottom: 20px;">
+		                                    <input type="email" name="Email" placeholder="Your Email" 
+		                                           style="width: 100%; padding: 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 16px; margin-bottom: 15px;">
+		                                </div>
+		                                
+		                                <div style="margin-bottom: 20px;">
+		                                    <input type="text" name="Subject" placeholder="Subject" 
+		                                           style="width: 100%; padding: 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 16px; margin-bottom: 15px;">
+		                                </div>
+		                                
+		                                <div style="margin-bottom: 25px;">
+		                                    <textarea name="Message" placeholder="Your Message" 
+		                                              style="width: 100%; padding: 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 16px; height: 120px; resize: vertical;"></textarea>
+		                                </div>
+		                                
+		                                <button type="submit" 
+		                                        style="width: 100%; padding: 14px; background: #4299e1; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; transition: all 0.3s ease;">
+		                                    Send Message
+		                                </button>
+		                                
+		                                <div id="success-message" style="display: none; background: #48bb78; color: white; padding: 12px; border-radius: 6px; margin-top: 15px; text-align: center;">
+		                                    Thank you! Your message has been sent.
+		                                </div>
+		                            </form>
+		                        </div>
+		                    </div>
+		                </div>
+		
+		                <!-- Right Column (Contact Info) -->
+		                <div class="col-md-5 col-sm-6" style="padding: 0 30px; margin-bottom: 30px;">
+		                    <div class="single-contact-box" style="height: 100%;">
+		                        <div class="contact-adress" style="background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); height: 100%;">
+		                            <div class="contact-add-head" style="margin-bottom: 25px;">
+		                                <h3 style="color: #2d3748; margin: 0 0 5px 0; font-size: 22px;">Md Saiful Islam</h3>
+		                                <p style="color: #718096; margin: 0; font-size: 16px;">UI/UX Designer</p>
+		                            </div>
+		                            <div class="contact-add-info">
+		                                <div class="single-contact-add-info" style="margin-bottom: 20px;">
+		                                    <h3 style="color: #4a5568; font-size: 14px; margin: 0 0 5px 0;">phone</h3>
+		                                    <p style="color: #2d3748; margin: 0; font-size: 16px;">+8801951225433</p>
+		                                </div>
+		                                <div class="single-contact-add-info" style="margin-bottom: 20px;">
+		                                    <h3 style="color: #4a5568; font-size: 14px; margin: 0 0 5px 0;">email</h3>
+		                                    <p style="color: #2d3748; margin: 0; font-size: 16px;">saifulislamreza48@gmail.com</p>
+		                                </div>
+		                                <div class="single-contact-add-info" style="margin-bottom: 20px;">
+		                                    <h3 style="color: #4a5568; font-size: 14px; margin: 0 0 5px 0;">website</h3>
+		                                    <p style="color: #2d3748; margin: 0; font-size: 16px;">https://github.com/rezasrk1</p>
+		                                </div>
+		                            </div>
+		                            <div class="hm-foot-icon" style="margin-top: 30px;">
+		                                <ul style="list-style: none; padding: 0; margin: 0; display: flex; gap: 15px; justify-content: center;">
+		                                    <li><a href="#" style="color: #718096; font-size: 24px; transition: color 0.3s ease;"><i class="fa fa-facebook"></i></a></li>
+		                                    <li><a href="#" style="color: #718096; font-size: 24px; transition: color 0.3s ease;"><i class="fa fa-dribbble"></i></a></li>
+		                                    <li><a href="#" style="color: #718096; font-size: 24px; transition: color 0.3s ease;"><i class="fa fa-twitter"></i></a></li>
+		                                    <li><a href="#" style="color: #718096; font-size: 24px; transition: color 0.3s ease;"><i class="fa fa-linkedin"></i></a></li>
+		                                    <li><a href="#" style="color: #718096; font-size: 24px; transition: color 0.3s ease;"><i class="fa fa-instagram"></i></a></li>
+		                                </ul>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		
+		    <script>
+		    const scriptURL = 'https://script.google.com/macros/s/AKfycbzO25nlEPn9K-HyDiqnYj49gP0hY3WlD7EQyi6NG2lIrcMIjJkwRQZ1_CXNIlIoZILf/exec';
+		    const form = document.forms['contact-form'];
+		    const successMessage = document.getElementById('success-message');
+		    const submitBtn = form.querySelector('button[type="submit"]');
+		
+		    form.addEventListener('submit', e => {
+		        e.preventDefault();
+		        const originalText = submitBtn.innerHTML;
+		        submitBtn.innerHTML = 'Sending...';
+		        submitBtn.style.background = '#2b6cb0';
+		        submitBtn.disabled = true;
+		
+		        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		        .then(response => {
+		            successMessage.style.display = 'block';
+		            form.reset();
+		            setTimeout(() => {
+		                successMessage.style.display = 'none';
+		            }, 3000);
+		        })
+		        .catch(error => {
+		            console.error('Error!', error.message);
+		            alert('Error sending message. Please try again.');
+		        })
+		        .finally(() => {
+		            submitBtn.innerHTML = 'Send Message';
+		            submitBtn.style.background = '#4299e1';
+		            submitBtn.disabled = false;
+		        });
+		    });
+		    </script>
+		</section>
+		<!-- contact end -->
+		
+		
+		
+		<!-- sesh ekhanei -->
 
 		<!--footer-copyright start-->
 		<footer id="footer-copyright" class="footer-copyright">
