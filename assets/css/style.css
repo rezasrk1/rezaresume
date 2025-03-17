@@ -185,29 +185,36 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
-.welcome-hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position:relative;
-    background:url(../images/about/Online Tailoring Shop.mp4)no-repeat;
-    background-size:cover;
-    background-position: center;
-    height:890px;
+.welcome-hero {
+    position: relative;
+    height: 100vh; /* Use viewport height instead of fixed pixels */
+    overflow: hidden;
 }
-.welcome-hero:before{
-    position:absolute;
-    content: " ";
-    top:0;
-    left:0;
-    background:rgba(31,44,108,.65);
-    width:100%;
-    height:100%;
+
+/* Video container */
+.hero-video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
+
+.hero-video-wrapper video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
 
 /*.header-text-area*/
 .header-text h2 {
-    color: #fff;
+    color: #a91717;
     font-size: 54px;
     font-weight: 700;
     text-transform: uppercase;
@@ -215,7 +222,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .header-text h2 span {color: #d92cf9;}
 .header-text p {
-    color: #fff;
+    color: #320d0d;
     font-size: 20px;
     font-weight: 300;
     text-transform: uppercase;
